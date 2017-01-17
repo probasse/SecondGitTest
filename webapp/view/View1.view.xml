@@ -1,10 +1,10 @@
-<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="QuickStartApplication2.controller.View1">
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="QuickStartApplication2.controller.View1" viewName="HomeView">
 	<App>
 		<pages>
 			<Page title="Proof of Concept for UI5, Java Web Services and Google App engine">
 			<content><TileContainer editable="true" allowAdd="true" id="__container0">
 			        <tiles>
-			            <StandardTile title="Create Project" infoState="Success" id="tileCreateProject" icon="sap-icon://create-entry-time" removable="false"/>
+			            <StandardTile title="Create Project" infoState="Success" id="tileCreateProject" icon="sap-icon://create-entry-time" removable="false" press="ClickMe"/>
 			            <StandardTile title="Manage Project" infoState="Success" id="tileManageProject" icon="sap-icon://action-settings" removable="false"/>
 			            <StandardTile title="Display Project" icon="sap-icon://display" infoState="Success" id="tileDisplayProject" removable="false"/>
 			            <StandardTile title="Delete Project" icon="sap-icon://delete" infoState="Success" id="tileDeleteProject" removable="false"/></tiles>
