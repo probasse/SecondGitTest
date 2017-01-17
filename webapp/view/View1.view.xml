@@ -2,6 +2,9 @@
 	<App>
 		<pages>
 			<Page title="https://github.com/probasse/SecondGitTest">
+			<content>
+			    <sap.ui.unified:CalendarLegend xmlns:sap.ui.unified="sap.ui.unified" id="__legend0"/>
+			</content>
 			</Page>
 		</pages>
 	</App>
