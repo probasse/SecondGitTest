@@ -2,8 +2,13 @@
 	<App>
 		<pages>
 			<Page title="https://github.com/probasse/SecondGitTest">
-			<content>
-			    <sap.ui.unified:CalendarLegend xmlns:sap.ui.unified="sap.ui.unified" id="__legend0"/>
+			<content><TileContainer editable="true" allowAdd="true" id="__container0">
+			        <tiles>
+			            <StandardTile title="Create Project" infoState="Success" id="tileCreateProject" icon="sap-icon://create-entry-time"/>
+			            <StandardTile title="Title" info="Info" icon="sap-icon://customer" activeIcon="sap-icon://customer" number="123" numberUnit="eur" infoState="Success" id="__tile4"/>
+			            <StandardTile title="Title" info="Info" icon="sap-icon://customer" activeIcon="sap-icon://customer" number="123" numberUnit="eur" infoState="Success" id="__tile2"/>
+			            <StandardTile title="Title 2" info="Info" icon="sap-icon://customer" activeIcon="sap-icon://customer" number="123" numberUnit="eur" infoState="Success" id="__tile1"/></tiles>
+			    </TileContainer>
 			</content>
 			</Page>
 		</pages>
