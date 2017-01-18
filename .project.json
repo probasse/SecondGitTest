@@ -18,6 +18,11 @@
       "templateId": "wysiwygtemplate.quickStart",
       "templateVersion": "0.0.0",
       "dateTimeStamp": "Tue, 17 Jan 2017 03:33:14 GMT"
+    },
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 18 Jan 2017 03:36:02 GMT"
     }
   ],
   "translation": {
