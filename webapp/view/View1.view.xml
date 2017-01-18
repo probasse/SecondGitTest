@@ -5,10 +5,10 @@
 			<content>
 			    <Button text="Click Me" width="100px" id="__button0" press="ClickMe"/><TileContainer allowAdd="true" id="tileContainer">
 			        <tiles>
-			            <StandardTile title="Create Project" infoState="Success" id="tileCreateProject" icon="sap-icon://create-entry-time" removable="false" press="ClickMe"/>
-			            <StandardTile title="Manage Project" infoState="Success" id="tileManageProject" icon="sap-icon://action-settings" removable="false"/>
-			            <StandardTile title="Display Project" icon="sap-icon://display" infoState="Success" id="tileDisplayProject" removable="false"/>
-			            <StandardTile title="Delete Project" icon="sap-icon://delete" infoState="Success" id="tileDeleteProject" removable="false"/></tiles>
+			            <StandardTile title="Create Project" infoState="Success" id="tileCreateProject" icon="sap-icon://create-entry-time" removable="false" press="CreateProject"/>
+			            <StandardTile title="Manage Project" infoState="Success" id="tileManageProject" icon="sap-icon://action-settings" removable="false" press="ManageProject"/>
+			            <StandardTile title="Display Project" icon="sap-icon://display" infoState="Success" id="tileDisplayProject" removable="false" press="DisplayProject"/>
+			            <StandardTile title="Delete Project" icon="sap-icon://delete" infoState="Success" id="tileDeleteProject" removable="false" press="DeleteProject"/></tiles>
 			    </TileContainer>
 			</content>
 			</Page>
