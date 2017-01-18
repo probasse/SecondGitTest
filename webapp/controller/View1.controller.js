@@ -5,8 +5,7 @@ sap.ui.define([
 
 	return Controller.extend("QuickStartApplication2.controller.View1", {
 		ClickMe: function(){
-			sap.m.MessageBox.alert("You Clicked me");
-		}
+			sap.m.MessageToast.show("You Clicked Me");
+		} // Click Me Test
 	});
-
 });
