@@ -86,9 +86,9 @@
 			},
 			"targets": {
 				"HomePage": {
-					"viewType": "",
+					"viewType": "XML",
 					"transition": "",
-					"clearAggregation": "",
+					"clearAggregation": true,
 					"viewName": "View1",
 					"title": "Home View",
 					"viewId": "HomeViewID",
@@ -100,7 +100,10 @@
 					"viewType": "XML",
 					"transition": "slide",
 					"clearAggregation": true,
-					"viewName": ""
+					"viewName": "CreateProjectView",
+					"title": "CreateProjectTitle",
+					"viewId": "SplitApp2",
+					"viewLevel": 2
 				}
 			}
 		}
