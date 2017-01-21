@@ -1,5 +1,5 @@
 <mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="QuickStartApplication2.controller.View1" viewName="HomeView">
-	<App>
+	<App id = "SplitApp">
 		<pages>
 			<Page title="Proof of Concept for UI5, Java Web Services and Google App engine">
 			<content>
