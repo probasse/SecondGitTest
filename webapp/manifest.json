@@ -94,7 +94,7 @@
 					"title": "Home View",
 					"viewId": "HomeViewID",
 					"viewLevel": 1,
-					"controlAggregation": "HomePage",
+					"controlAggregation": "",
 					"controlId": "App"
 				},
 				"Detail Pages": {
@@ -104,9 +104,11 @@
 					"viewName": "CreateProjectView",
 					"title": "CreateProjectTitle",
 					"viewId": "SplitApp2",
-					"viewLevel": 2
+					"viewLevel": 2,
+					"controlId": "App"
 				}
-			}
+			},
+			"routes": []
 		}
 	}
 }
